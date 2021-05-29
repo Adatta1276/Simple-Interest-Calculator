@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <script> 
+      
+      var prom1 = prompt("Enter the principal amount without currency symbols.");
+      var prom2 = prompt("Enter the rate of interest (without the % sign).");
+      var prom3 = prompt("Enter the total time in years (but without any words. No fractions, only decimals.)");
+      
+      var si = prom1*prom2*prom3/100;
+      if(si !== NaN) {
+        alert("The simple interest on the amount with the respective values is : "+si);
+      }
+      
+      else {
+        alert("Something went wrong. Try again!");
+      }
+       
+      
+      
+      
+     
+      
+    
+    
+    
+    </script>
+  </body>
+</html>
